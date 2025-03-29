@@ -1,7 +1,7 @@
 O versionamento de código é o processo de gerenciar as mudanças no código-fonte de um projeto ao longo do tempo. Ele permite que os desenvolvedores acompanhem modificações, colaborem de forme eficiente e revertam para versões antigas se necessário.
 
 # Git e Github
-O Git é o sistema de controle de versão distribuido mais usado atualmente. Ele permite criar branches, realizar merges, visualizar o histórico de commits.
+O Git é o sistema de controle de versão distribuído mais usado atualmente. Ele permite criar branches, realizar merges, visualizar o histórico de commits.
 O GitHub é a principal plataforma que armazenam repositórios Git na nuvem e facilitam a colaboração.
 ## Principais comados:
 - `git init` → Inicializa um repositório Git.

@@ -7,9 +7,9 @@ Modelo em que um cliente solicita serviços a um servidor central
 
 **Vantagens:**
 - Centralização de controle
-- Facilidade de manuteção
+- Facilidade de manutenção
 
-**Desvantages:**
+**Desvantagens:**
 - Pode gerar sobrecarga no servidor, possui ponto único de falha
 
 ## Arquitetura em camadas
@@ -19,7 +19,7 @@ Divide o sistema em camadas (apresentação, controle, lógica, dados)
 - Modularidade
 - Facilidade de manutenção
 
-**Desvantages:**
+**Desvantagens:**
 - Pode adicionar complexidade e latência
 
 ## Publisher-Subscriber
@@ -27,7 +27,7 @@ Comunicação baseada em eventos, em que o publisher envia mensagens aos subscri
 
 **Vantagens:**
 - Desacoplamento 
-- Escabalabilidade
+- Escalabilidade
 
 **Desvantagens:**
 - Difícil de depurar e garantir consistência
