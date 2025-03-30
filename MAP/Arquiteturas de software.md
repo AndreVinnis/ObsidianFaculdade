@@ -16,7 +16,7 @@ Modelo em que um cliente solicita serviços a um servidor central
 Divide o sistema em camadas (apresentação, controle, lógica, dados)
 
 **Vantagens:**
-- Modularidade
+- Modularidade 
 - Facilidade de manutenção
 
 **Desvantagens:**
@@ -37,7 +37,7 @@ Permite extensão da funcionalidade de um sistema por meio de módulos externos 
 
 **Vantagens:**
 - Flexibilidade
-- Modularidade
+- Modularidade 
 
 **Desvantagens:**
 - Pode ser difícil gerenciar dependências e compartibilidade
@@ -54,18 +54,18 @@ Todo o sistema é construído como uma única unidade
 ## Microserviços
 Divide o sistema em pequenos serviços independentes, que se comunicam via APIs
 
-**Vantegens:**
+**Vantagens:**
 - Escalabilidade
-- Deploy independentes
+- Deploy independentes 
 
 **Desvantagens:**
 - Complexidade em comunicação e gerenciamento 
 
-## SOA (Service-Driented Architeture)
-Modelo baseado em integração de serviços reutilizáveis; diferentes sistemas ser comunicam por se comunicam por interfaces bem definidas
+## SOA (Service-Oriented Architeture)
+Modelo baseado em integração de serviços reutilizáveis; diferentes sistemas se comunicam por interfaces bem definidas
 
 ## Hexagonal
-Separa regras de negõcio da infraestrutura e interfaces externas
+Separa regras de negócio da infraestrutura e interfaces externas
 
 **Vantagens:**
 - Alta testabilidade
@@ -73,3 +73,10 @@ Separa regras de negõcio da infraestrutura e interfaces externas
 
 **Desvantagens:**
 - Curva de aprendizado. Pode ser difícil de implantar
+
+## Conceitos:
+- **Modularidade:** Característica de sistema que permite ser dividido e módulos independentes, facilitando manutenção, reuso, escalabilidade.
+- **Deploy:** Processo de disponibilizar um aplicação em um ambiente de produção.
+- **Latência:** Tempo de espera entre a solicitação de uma ação e resposta.
+- **Overhead:** Custo extra em processamento, memória ou tempo causado por um sistema ou método.
+- **Depurar (Debugging):**  Processo de identificar e corrigir erros em um sistema ou código.
