@@ -73,6 +73,18 @@ Separa regras de negócio da infraestrutura e interfaces externas
 
 **Desvantagens:**
 - Curva de aprendizado. Pode ser difícil de implantar
+## Resumo:
+
+| Arquitetura      | Principais características                      | Vantagens                         | Desvantagens                    |
+| ---------------- | ----------------------------------------------- | --------------------------------- | ------------------------------- |
+| Cliente-servidor | Cliente faz requisições ao servidor             | Simples e centralizado            | Pode gerar gargalo              |
+| Camadas          | Divisão lógica do sistema                       | Modular e organizado              | Pode ter sobrecarga de chamadas |
+| Pub/Sub          | Comunicação assíncrona entre componentes        | Desacoplado e escalável           | Complexo de gerenciar           |
+| Plugins          | Módulos que podem ser adicionados dinamicamente | Flexível e extensível             | Problemas de compartibilidade   |
+| Monolítica       | Sistema único e integrado                       | Fácil desenvolvimento inical      | Difícil de escalar              |
+| Microserviçõs    | Serviços independentes                          | Escalável e modular               | Complexidade operacional        |
+| SOA              | Serviços reutilizáveis em diferentes sistemas   | Reutilização e interoperabilidade | Pode exigir um barramento (ESB) |
+| Hexagol          | Núcleo isolado da infraestrutura                | Flexibilidade e desacomplamentp   | Complexidade na implementação   |
 
 ## Conceitos:
 - **Modularidade:** Característica de sistema que permite ser dividido e módulos independentes, facilitando manutenção, reuso, escalabilidade.

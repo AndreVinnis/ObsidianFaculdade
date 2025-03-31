@@ -61,7 +61,7 @@ Exemplo: (DaaS) - Computadores virtuais remotos, (BaaS) - Infraestrutura para ap
 | SaaS   | Software pronto para uso                            | Usuário apenas usa o software           |
 | PaaS   | Plataforma pronta para desenvolvimento              | Usuário gerencia código e apps          |
 | IaaS   | Infraestrutura virtualizada (Servidores, redes, SO) | Usuário gerencia o SO e apps            |
-| HaaS   | Hardware físico alugado                             | Usuário usu o hardware, provedor mantém |
+| HaaS   | Hardware físico alugado                             | Usuário usa o hardware, provedor mantém |
 | XaaS   | Qualquer serviço entregue via nuvem                 | Depende do tipo de serviço              |
 
 ## Modelos de implantação 
